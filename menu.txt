@@ -1,0 +1,37 @@
+// ALL MENU BOT*
+.pcall : All menu Push Kontak
+.vcf : Convert Contact To vCard
+.setgb : all menu gb
+.cmenu : menu create
+.install : menu install
+.ai : menu AI
+.asist : menu asisten
+.ent : menu Hiburan
+.own : menu owner
+.ptero : menu pterodactyl 
+
+*// ALL MODEL AI*
+.gemini
+.chatgpt
+.z-ai
+.cici
+.metaai
+.qwen
+
+
+ if (!await requireArgs(sock, msg, args, '.gemini <pertanyaan>', '.gemini Hai Gemini')) break;
+                const prompt = args.join(' ');
+                try {
+                    const response = await axios.get(`https://api.ikyyxd.my.id/ai/gemini?text=${encodeURIComponent(prompt)}&sessionsId=kyzz`);
+                    const result = response.data.result;
+                    await sendCommandResponse(sock, msg.key.remoteJid, { text: result }, msg);
+                } catch (error) {
+                    logError(error, 'GEMINI API');
+                    await sendCommandResponse(sock, msg.key.remoteJid, {
+                        text: '❌ Terjadi kesalahan saat menghubungi Gemini.'
+                    }, msg);
+                }
+                break;
+            }
+
+            contoh buat case ai

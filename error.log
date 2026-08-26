@@ -1,0 +1,82 @@
+[22/8/2026, 10.38.14] [CONTEXT: HANDLE MESSAGE FUNCTION] TypeError: os.totalram is not a function
+    at getServerInfo (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:31:25)
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:82:19)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:86:19)
+    at EventEmitter.emit (node:events:524:28)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:38:16)
+    at EventEmitter.emit (node:events:524:28)
+    at Object.flush (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Utils/event-buffer.js:92:16)
+    at processNodeWithBuffer (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/messages-recv.js:1574:12)
+    at async processNode (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/messages-recv.js:1608:13)
+    at async WebSocketClient.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/messages-recv.js:1613:9)
+--------------------------------------------------
+[22/8/2026, 18.50.07] [CONTEXT: EXECUTING .PUSH COMMAND] Error: bad-request
+    at assertNodeErrorFree (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/WABinary/generic-utils.js:57:15)
+    at query (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:137:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.groupMetadata (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/groups.js:20:24)
+    at async executePushKontak (file:///C:/laragon/www/integration%20(2)/pga/function/pushkontak.js:6:31)
+    at async handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:658:25)
+    at async EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:17)
+--------------------------------------------------
+[22/8/2026, 21.22.40] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: sendMessage is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:729:17)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[23/8/2026, 12.47.37] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: isBotAdmin is not defined
+    at requireBotAdmin (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:80:19)
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:343:16)
+    at async EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:17)
+--------------------------------------------------
+[23/8/2026, 12.47.53] [CONTEXT: HANDLE MESSAGE FUNCTION] Error: Connection Closed
+    at sendRawMessage (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:60:19)
+    at sendNode (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:79:16)
+    at file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:132:13
+    at new Promise (<anonymous>)
+    at promiseTimeout (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Utils/generics.js:114:16)
+    at query (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/socket.js:130:30)
+    at groupQuery (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/groups.js:10:54)
+    at groupMetadata (file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/groups.js:20:30)
+    at file:///C:/laragon/www/integration%20(2)/pga/node_modules/@whiskeysockets/baileys/lib/Socket/messages-send.js:506:47
+    at async Promise.all (index 0)
+--------------------------------------------------
+[25/8/2026, 06.45.11] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: getPhone is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1009:27)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[25/8/2026, 06.46.00] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: jid is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1009:55)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[25/8/2026, 06.46.06] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: jid is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1009:55)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[26/8/2026, 19.01.45] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: jid is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1009:51)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[26/8/2026, 19.01.45] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: jid is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1009:51)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[26/8/2026, 19.01.45] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: jid is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1009:51)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[26/8/2026, 19.01.45] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: jid is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1009:51)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[26/8/2026, 19.02.15] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: jid is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1009:51)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[26/8/2026, 19.04.01] [CONTEXT: HANDLE MESSAGE FUNCTION] ReferenceError: jid is not defined
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1009:51)
+    at EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:23)
+--------------------------------------------------
+[26/8/2026, 19.12.28] [CONTEXT: HANDLE MESSAGE FUNCTION] TypeError: nameversiongetWaktu(...)getServerInfo(...).platformgetServerInfo(...).archyearnameversion.then is not a function
+    at handleMessage (file:///C:/laragon/www/integration%20(2)/pga/cmd.js:1807:19)
+    at async EventEmitter.<anonymous> (file:///C:/laragon/www/integration%20(2)/pga/index.js:359:17)
+--------------------------------------------------
