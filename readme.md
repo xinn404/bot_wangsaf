@@ -22,8 +22,8 @@ Sebelum memulai, pastikan perangkat Anda telah terinstal:
 
 1. **Clone repositori ini:**
    ```bash
-   git clone https://github.com/username/nama-repo-anda.git](https://github.com/xinn404/bot_wangsaf.git
-   cd nama-repo-anda
+   git clone https://github.com/xinn404/bot_wangsaf.git
+   cd bot_wangsaf
    ```
 
 2. **Installdependencies:**
